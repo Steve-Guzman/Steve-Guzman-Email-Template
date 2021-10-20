@@ -1,0 +1,135 @@
+<style>
+body{
+    margin: 30px;
+    
+    
+}
+.my-row{
+/* border: 1px dotted blue; */
+height: 100vh;
+
+}
+.side-panel{
+    /* border: 1px solid green; */
+    background-color:#3f3d38;
+    color: white;
+    /* min-width: fit-content; */
+    padding-top: 30px;
+
+    
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.profile-pic{
+    width: 60px;
+}
+#welcome-msg{
+    margin-left:10px;
+    font-size: 20px;
+}
+.inbox{
+    /* border: 1px solid red; */
+    background-color: #e4e3e3; 
+    
+}
+.conversation{
+    /* border: 2px solid purple; */
+}
+.compose-button {
+    background-color: rgb(235, 206, 81);
+    color:white;
+    font-weight:bold;
+    border: none;
+     /* border-radius: 10px; 
+     padding: 5px 15px 5px 15px; 
+     height: 40px;
+     width: 100px;  */
+}
+.bullet-list{
+    list-style-type: none;
+    padding-left: 10px;
+    
+}
+.list-item{
+    margin-top: 20px;
+}
+#search-input{
+    outline:none !important;
+   padding-left: 50px;
+   z-index: 1; /* search icon stays put? */
+   margin-top: 10px;
+   
+    
+}
+#search-btn{
+    border: none;
+    z-index: 3; /*this does?*/
+    margin-right: -40px;
+    margin-top: 10px;
+}
+
+.Michael-Scott{
+    background-color: rgb(223, 219, 217);
+    /* border-radius: 10px;   */
+    /* padding: 10px; */
+    
+    
+}
+.to,.from{
+    font-size: 12px;
+}
+.to{
+margin-bottom: -16px; 
+margin-top: 5px;
+}
+.email-subject{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: baseline;
+    
+}
+.email-subject h2{
+    margin-right: auto;
+}
+.email-subject i{
+    padding-right: 10px;
+}
+#reply-text{
+    border: none;
+    resize:none;
+   
+}
+#reply-btn{
+    
+    /* margin-bottom: 11px; */
+    border: 2px solid #dcb353;
+    font-size: 16px;
+    font-weight: bold;
+    color: #dcb353;
+    width: 80px;
+    box-shadow: none;
+    
+}
+#paperclip-icon{
+    /* margin-bottom: 11px; */
+    border:none;
+   background-color:transparent;
+   outline:none;
+}
+
+.form-control:focus{
+    border-color:#CCC;
+    /* outline:0; */
+    /* -webkit-box-shadow:none; */
+    box-shadow:none;
+}
+.clock{
+display: flex;
+justify-content: space-between;
+}
+
+</style>
